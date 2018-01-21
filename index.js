@@ -23,10 +23,7 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  var base = 10
-  var parsed = parseInt(n, base)
-  parseInt("n", base)
-  return parsed 
+  return parseInt(n, 10)
 }
 
 function preserveDecimal(n) {
